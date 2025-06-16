@@ -9,3 +9,8 @@ body {
   background-color: #2a2e2f;
   color: #ffffff;
 }
+
+.page {
+  max-width: 100%;
+  overflow-x: hidden;
+}

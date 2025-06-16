@@ -4,6 +4,21 @@
   margin: 194px auto 0;
 }
 
+@media screen and(max-width:768px) {
+  .lead__title {
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+
+@media screen and(max-width:480px) {
+  .lead__title {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
 .lead__title {
   width: 720px;
   font-weight: 900;

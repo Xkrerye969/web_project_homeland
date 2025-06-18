@@ -1,7 +1,8 @@
 .lead {
-  width: 984px;
-  height: auto;
+  max-width: 984px;
+  width: 100%;
   margin: 194px auto 0;
+  padding: 0 24px;
 }
 
 @media screen and (max-width: 768px) {

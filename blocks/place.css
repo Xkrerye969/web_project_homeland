@@ -52,7 +52,7 @@
   color: white;
 }
 
-.place__artist {
+.place__artist-heading {
   font-size: 14px;
   font-weight: 400;
   color: #ccc;
@@ -60,6 +60,14 @@
   line-height: 20px;
   margin: 0;
   padding-top: 8px;
+}
+
+.place__artist-name {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 .place__paragraph {
@@ -93,8 +101,6 @@
 
   .place__image {
     order: -1;
-    width: 100%;
-    height: auto;
     margin-bottom: 24px;
   }
 
@@ -110,10 +116,6 @@
     text-align: left;
   }
 
-  .place__artist {
-    text-align: left;
-  }
-
   .place__button {
     align-self: flex-start;
     margin-top: 16px;
@@ -126,7 +128,8 @@
     line-height: 40px;
   }
 
-  .place__paragraph {
+  .place__paragraph,
+  .place__artist-name {
     font-size: 14px;
     line-height: 1.5;
   }
@@ -136,7 +139,7 @@
     padding: 10px 20px;
   }
 
-  .place__artist {
+  .place__artist-heading {
     font-size: 12px;
     line-height: 16px;
   }
